@@ -13,7 +13,6 @@ export default function ProfileDropdown() {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
-  console.log("bte");
 
   useOnClickOutside(ref, () => setOpen(false));
 
